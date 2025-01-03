@@ -3,6 +3,9 @@
 ## Overview
 This file contains the Main function for the project. 
 
+This project requires the use of CS Academy's Sandbox to run due to its reliance on Sandbox-specific features, 
+including image handling. FOLLOW THESE STEPS CAREFULLY.
+
 ## Running the Code
 To run this project, follow these steps:
 1. **Sign Up for CS Academy**:  
