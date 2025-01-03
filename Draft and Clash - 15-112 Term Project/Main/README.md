@@ -15,7 +15,7 @@ To run this project, follow these steps:
    - Once logged in, navigate to the **Sandbox** section of CS Academy.  
    - This is where you can paste and execute the code.
 3. **Paste the Code**:  
-   - Copy the code from ALL of the files into one singular file.
+   - Copy the code from ALL THREE of the files into one singular file.
    - Paste it into the CS Academy sandbox editor.
 4. **Run the Program**:  
    - Click the "Run" button in the sandbox to execute the program.
