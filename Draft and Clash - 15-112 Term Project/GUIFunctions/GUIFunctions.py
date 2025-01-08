@@ -533,10 +533,10 @@ def displayDraftChoices(app): # Make sure there is no MVC violation
     for button in app.draftButtons:
         button.draw()
 
-    # Render the player stats, the button spacing and height were added by chatgpt
+   
     buttonSpacing = 10
     buttonHeight = 30
-    for i, player in enumerate(app.draftPlayers): # Same logic as for the draft aspect, chatgpt helped me with these 2 lines
+    for i, player in enumerate(app.draftPlayers): 
         playerBoxTop = 150 + i * (buttonHeight + buttonSpacing)
         
         drawLabel(f"Country: {player.country}", app.width / 2 - 180, playerBoxTop + buttonHeight / 4, size=12, fill='white', font = "orbitron")
