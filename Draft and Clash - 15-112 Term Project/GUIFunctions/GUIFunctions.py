@@ -464,17 +464,16 @@ def writeTutorial3(app):
 
 # This is a helper function for writing the Backstory
 def splitTextIntoLines(text, max_chars_per_line): # This helper function splits a long text into multiple lines based on a maximum number of characters per line. 
-    # Chatgpt debugged a small bit of 2 places stated below
     words = text.split(" ")
     lines = []
     current_line = ""
 
     for word in words:
         # This is the check to see if the words on the line exceed the limit (if so, then move to a new line)
-        if len(current_line) + len(word) + 1 > max_chars_per_line: # initially had a logic error, chatgpt fixed
-            lines.append(current_line) # using a list for the lines was my idea, but I implemented it wrong the first time, so chatgpt debugged it for me (it was a syntax mistake)
+        if len(current_line) + len(word) + 1 > max_chars_per_line: 
+            lines.append(current_line) 
             current_line = word
-        else: # Chatgpt fixed these lines below, they were not working before
+        else: 
             if current_line:
                 current_line += " "
             current_line += word
