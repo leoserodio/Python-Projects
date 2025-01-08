@@ -445,7 +445,7 @@ class Woodwork:
     def coordQuadruple(self):
         return tuple(self.corners) # chatgpt wrote this line(syntax)
     def draw(self):   
-        drawPolygon(*[coord for point in self.corners for coord in point], fill=None) # adapted from TA-Led Lecture and chatgpt
+        drawPolygon(*[coord for point in self.corners for coord in point], fill=None) 
 
 # Ball class(adapted from mini lecture)
 class SoccerBall:
