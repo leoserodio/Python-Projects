@@ -9,7 +9,7 @@
 #   Citations for this file: 
 #   1)  Incorporated cmu_graphics syntax from 
 #       https://www.cs.cmu.edu/~112/notes/notes-animations-part3.html
-#   2)  Pictures taken from the google images and links as specified
+#   2)  Pictures taken from google images and links as specified
 #
 #   3)  Chatgpt used through specific functions in classes(described simultaneously with the code), and chatgpt used for some comments
 #
